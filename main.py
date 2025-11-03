@@ -630,7 +630,7 @@ class Game:
             # This small pause makes the AI's turn readable
             if self.game_state.current_turn_player == "p2":
                 import time
-                time.sleep(0.5)
+                time.sleep(1)
 
         # Game is over
         self.print_board()
